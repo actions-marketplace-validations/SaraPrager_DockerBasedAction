@@ -1,0 +1,10 @@
+name: 'IAC connectivity risk analysis'
+description: 'Extensible security plugin platform that checks code for potential vulnerabilities before any commits to a repository.'
+author: 'Algosec'
+branding:
+  icon: 'award'
+  color: 'green'
+runs:
+  using: 'docker'
+  image: 'saraprager/test-examples:devsecops_github'
+  entrypoint: 'risk-analysis'

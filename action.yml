@@ -6,5 +6,5 @@ branding:
   color: 'green'
 runs:
   using: 'docker'
-  image: 'saraprager/test-examples:devsecops_github'
+  image: 'docker://saraprager/test-examples:devsecops_github'
   entrypoint: 'risk-analysis'
